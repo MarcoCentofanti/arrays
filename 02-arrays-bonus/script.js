@@ -29,11 +29,10 @@ longNames.push(lengthname)
 }
 console.log(longNames)
 
-// let parola = "ciaoxx"
-// let test = (parola.length > 5)
-
 // 3. Rimuovi 'Ed' dall'array teachers
-
+let findEd = teachers.indexOf('Ed')
+teachers.splice(findEd, 1)
+console.log(teachers)
 // 4. Verifica se 'Fabio' è presente nell'array teachers
 // e salva il risultato nella variabile isFabioPresent
 const isFabioPresent = null;
